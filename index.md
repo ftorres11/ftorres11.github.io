@@ -1,8 +1,7 @@
 # **Home**
 
-You can use the [editor on GitHub](https://github.com/ftorres11/ftorres11.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am a M.Sc. student in Biomedical Engineering at Universidad de los Andes. For the last two years I have been working under the supervission of my assessor [Pablo Arbeláez][https://biomedicalcomputervision.uniandes.edu.co/index.php] on Bone Age Estimation although I'm interested on image segmentation and astronomical images.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
 # **Research**
