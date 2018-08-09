@@ -1,7 +1,7 @@
 # **Home**
 
-I am a M.Sc. student in Biomedical Engineering at Universidad de los Andes. For the last two years I have been working under the supervission of my assessor [Pablo Arbeláez](https://biomedicalcomputervision.uniandes.edu.co/index.php) on Bone Age Estimation although I'm interested on image segmentation and astronomical images.
-
+I'm a Colombian Biomedical Engineer doing my Masters' Degree at Universidad de Los Andes, Colombia. I'm 23 years old (soon to be 24), passionate about music, history and astronomy. During my undergraduate I grew passion towards programming and since then I've been working on Computer Vision under the supervission of my advisor [Pablo Arbeláez](https://biomedicalcomputervision.uniandes.edu.co/).
+I love jogging, spending time looking at the sky and good music; specially if I can reproduce it when playing my guitar or bass. Whenever I have the means to I also build scale models of planes of the WWII era. 
 
 
 # **Research**
