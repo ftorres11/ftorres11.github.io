@@ -1,9 +1,12 @@
 # **Home**
 
-You can use the [editor on GitHub](https://github.com/ftorres11/ftorres11.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I'm a Colombian Biomedical Engineer doing my Masters' Degree at Universidad de Los Andes, Colombia. I'm 23 years old (soon to be 24), passionate about music, history and astronomy. During my undergraduate I grew passion towards programming and since then I've been working on Computer Vision under the supervission of my advisor [Pablo Arbeláez](https://biomedicalcomputervision.uniandes.edu.co/). I love jogging, spending time looking at the sky and good music; specially if I can reproduce it when playing my guitar or bass. Whenever I have the means to I also build scale models of planes of the WWII era.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# **Research**
 
+# **Hobbies**
+
+# **Contact**
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
