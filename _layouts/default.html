@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
@@ -30,27 +29,19 @@
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
        <p>{{ site.description | default: site.github.project_tagline }}</p>
        <hr>
+      <div class="navigation-top site-navigation-fixed">
+       <div class="wrap">
+        <nav id="site-navigation" class="main-navigation" role="navigation" aria-label"Top Menu">
+        <div class="menu-social-links-menu-container">
+         <ul id="top-menu" class="menu">
+          <li id="menu-item-486" class="menu-item"><a href="#contact">Contact</a></li>
+          <li id="menu-item-485" class="menu-item"><a href="#hobbies">Hobbies</a></li>
+          <li id="menu-item-484" class="menu-item"><a href="#research">Research</a></li>
+          <li id="menu-item-483" class="menu-item"><a href="#home">Home</a></li>
+         </ul>
+        </div>
+        </nav>
      </div>
-     <div class="navigation-top site-navigation-fixed">
-      <div class="wrap">
-       <nav id="site-navigation" class="main-navigation" role="navigation" aria-label"Top Menu">
-       <div class="menu-social-links-menu-container">
-        <ul id="top-menu" class="menu">
-         <li id="menu-item-486" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-486">
-          <a href="#contact">Contact</a>
-         </li>
-         <li id="menu-item-485" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-485">
-          <a href="#hobbies">Hobbies</a>
-         </li>
-         <li id="menu-item-484" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-484">
-          <a href="#research">Research</a>
-         </li>
-         <li id="menu-item-483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-483">
-          <a href="#home">Home</a>
-         </li>
-        </ul>
-       </div>
-       </nav>
       <!--#site-navigation-->
      </div>    
     </div>
