@@ -1,6 +1,6 @@
 # **Home**
 
-I am a M.Sc. student in Biomedical Engineering at Universidad de los Andes. For the last two years I have been working under the supervission of my assessor [Pablo Arbeláez][https://biomedicalcomputervision.uniandes.edu.co/index.php] on Bone Age Estimation although I'm interested on image segmentation and astronomical images.
+I am a M.Sc. student in Biomedical Engineering at Universidad de los Andes. For the last two years I have been working under the supervission of my assessor [Pablo Arbeláez](https://biomedicalcomputervision.uniandes.edu.co/index.php) on Bone Age Estimation although I'm interested on image segmentation and astronomical images.
 
 
 
