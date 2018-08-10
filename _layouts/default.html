@@ -18,13 +18,17 @@
          position: sticky;
          top: 0;
      }
-     .menu-item {
+     li {
          float: right;
-         border-right: 1px solid #bbb;
-         padding: 16px;
-         background-color: #111111;
      }
-     .menu-item:hover {
+     li a {
+         display:block;
+         text-align: center;
+         border-right: 1px solid #bbb;
+         padding: 16px 14px #111111;
+         text-decoration: none;
+     }
+     li a:hover {
        background-color: #111;
      }
     </style>
@@ -37,12 +41,14 @@
        <p>{{ site.description | default: site.github.project_tagline }}</p>
      </div>
       <ul>
-       <li> <a id="menu-item-1" href="#contact" class="menu-item">Contact</a></li>
-       <li> <a id="menu-item-2" href="#hobbies" class="menu-item"  >Hobbies</a></li>
-       <li> <a id="menu-item-3" href="#research" class="menu-item" >Research</a></li>
-       <li> <a id="menu-item-4" href="#home" class="menu-item" >Home</a></li>
+       <li> <a id="menu-item-1" href="#contact">Contact</a></li>
+       <li> <a id="menu-item-2" href="#hobbies">Hobbies</a></li>
+       <li> <a id="menu-item-3" href="#research">Research</a></li>
+       <li> <a id="menu-item-4" href="#home">Home</a></li>
       </ul>
-    {{content}}   
+     <div>
+     {{content}}   
+     </div>
     </section>
     </div> 
     {% if site.google_analytics %}
