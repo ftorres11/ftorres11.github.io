@@ -9,8 +9,17 @@
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <style>
-     li.menu-item {
+     ul.nav-menu{
+         st-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #333;
+         position: -webkit-sticky; /* Safari */
          position: sticky;
+         top: 0; 
+     }
+     li.menu-item {
          float: right;
          border-right: 1px solid #bbb;
      }
@@ -33,14 +42,12 @@
        <hr>
       </div>
       <div id="nav-menu">
-      <nav>
-       <ul id="top-menu" class="menu">
+       <ul id="top-menu" class="nav-menu">
         <li id="menu-item-1" class="menu-item"><a href="#contact">Contact</a></li>
         <li id="menu-item-2" class="menu-item"><a href="#hobbies">Hobbies</a></li>
         <li id="menu-item-3" class="menu-item"><a href="#research">Research</a></li>
         <li id="menu-item-4" class="menu-item"><a href="#home">Home</a></li>
        </ul>
-       </nav>
       </div>
     </section>
     {{content}}   
