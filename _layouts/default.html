@@ -11,10 +11,12 @@
     <style>
      nav {
          position: sticky;
+         position: -webkit-sticky; /* Safari */
          top: 0; 
      }
      ul {
          overflow: auto;
+         background-color: #111;
      }
      .menu-item {
          float: right;
@@ -22,9 +24,11 @@
          display:block;
          padding: 16px;
          text-align: center;
+         background-color: #111111;
+
      }
      .menu-item:hover {
-       background-color: #111111;
+       background-color: #111;
      }
     </style>
   </head>
@@ -35,7 +39,6 @@
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
        <p>{{ site.description | default: site.github.project_tagline }}</p>
        <hr>
-     </div>
      <nav>
       <ul>
        <li> <a id="menu-item-1" href="#contact" class="menu-item">Contact</a></li>
@@ -44,6 +47,7 @@
        <li> <a id="menu-item-4" href="#home" class="menu-item" >Home</a></li>
       </ul>
      </nav>
+     </div>
     </section>
     {{content}}   
     </div> 
