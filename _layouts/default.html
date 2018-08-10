@@ -4,32 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <style>
-     ul {
-         background-color: #111;
-         margin: 0;
-         padding: 0;
-         overflow: hidden;
-         position: -webkit-sticky; /* Safari */
-         position: sticky;
-         top: 0;
-     }
-     li {
-         float: right;
-     }
-     li a {
-         display:block;
-         border-right: 1px solid #bbb;
-         padding: 14px 16px;
-     }
-     li a:hover {
-       background-color: #111;
-     }
-    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -38,11 +16,11 @@
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
        <p>{{ site.description | default: site.github.project_tagline }}</p>
      </div>
-      <ul style="list-style-type:none">
-       <li> <a id="menu-item-1" href="#contact">Contact</a></li>
-       <li> <a id="menu-item-2" href="#hobbies">Hobbies</a></li>
-       <li> <a id="menu-item-3" href="#research">Research</a></li>
-       <li> <a id="menu-item-4" href="#home">Home</a></li>
+      <ul class="menu-list">
+       <li> <a id="menu-item-1" href="#contact" class="menu-item">Contact</a></li>
+       <li> <a id="menu-item-2" href="#hobbies" class="menu-item">Hobbies</a></li>
+       <li> <a id="menu-item-3" href="#research"class="menu-item">Research</a></li>
+       <li> <a id="menu-item-4" href="#home" class="menu-item">Home</a></li>
       </ul>
      <div>
       {{content}}    
