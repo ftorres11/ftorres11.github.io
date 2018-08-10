@@ -9,7 +9,7 @@
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <style>
-     nav {
+     ul {
          background-color: #111;
          margin: 0;
          padding: 0;
@@ -24,8 +24,6 @@
      li a {
          display:block;
          border-right: 1px solid #bbb;
-         padding: 16px 14px #111111;
-         text-decoration: none;
      }
      li a:hover {
        background-color: #111;
@@ -39,14 +37,12 @@
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
        <p>{{ site.description | default: site.github.project_tagline }}</p>
      </div>
-     <nav>
       <ul>
        <li> <a id="menu-item-1" href="#contact">Contact</a></li>
        <li> <a id="menu-item-2" href="#hobbies">Hobbies</a></li>
        <li> <a id="menu-item-3" href="#research">Research</a></li>
        <li> <a id="menu-item-4" href="#home">Home</a></li>
       </ul>
-     </nav>
      <div>
      {{content}}   
      </div>
