@@ -2,8 +2,8 @@
 ---
 
 @import "jekyll-theme-midnight";
-.menu-bar 
-{
+ul{
+    list-style-type: none;
     background-color: #111;
     margin: 0;
     padding: 0;
@@ -12,17 +12,14 @@
     position: sticky;
     top: 0;
 }
-.menu-item
-{
+li{
     float: right;
 }
-.menu-item a
-{
+li a {
     display:block;
     border-right: 1px solid #bbb;
     padding: 14px 16px;
-}
-.menu-item a:hover
-{
+} 
+li a:hover {
     background-color: #111;
 }
