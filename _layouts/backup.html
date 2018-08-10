@@ -3,34 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!--script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"><!/script-->
+    <!--script src="{{ '/assets/js/respond.js' | relative_url }}"></script!-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <style>
-     nav {
-         position: sticky;
-         position: -webkit-sticky; /* Safari */
-         top: 0; 
-     }
-     ul {
-         overflow: auto;
-         background-color: #111;
-     }
-     .menu-item {
-         float: right;
-         border-right: 1px solid #bbb;
-         display:block;
-         padding: 16px;
-         text-align: center;
-         background-color: #111111;
-
-     }
-     .menu-item:hover {
-       background-color: #111;
-     }
-    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -38,19 +14,18 @@
      <div id="title">
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
        <p>{{ site.description | default: site.github.project_tagline }}</p>
-       <hr>
-     <nav>
-      <ul align="left">
-       <li> <a id="menu-item-1" href="#contact" class="menu-item">Contact</a></li>
-       <li> <a id="menu-item-2" href="#hobbies" class="menu-item"  >Hobbies</a></li>
-       <li> <a id="menu-item-3" href="#research" class="menu-item" >Research</a></li>
-       <li> <a id="menu-item-4" href="#home" class="menu-item" >Home</a></li>
-      </ul>
-     </nav>
      </div>
-    {{content}}   
+     <ul class="menu-bar">
+      <li> <a href="#contact">Contact</a></li>
+      <li> <a href="#hobbies">Hobbies</a></li>
+      <li> <a href="#research">Research</a></li>
+      <li> <a href="#home">Home</a></li>
+     </ul>
+    <div id="content">
+     {{content}}       
+    </div>
     </section>
-    </div> 
+    </div>
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

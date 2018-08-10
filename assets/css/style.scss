@@ -2,7 +2,7 @@
 ---
 .menu-bar{
     list-style-type: none;
-    background-color: #111;
+    background-color: #333;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -10,15 +10,15 @@
     position: sticky;
     top: 0;
 }
-li{
+li.menu-item {
     float: right;
 }
-li {
+li.menu-item {
     display:block;
     border-right: 1px solid #bbb;
     padding: 14px 16px;
 } 
-li a:hover {
+li.menu-item a:hover {
     background-color: #111;
 }
 @import "jekyll-theme-midnight";
