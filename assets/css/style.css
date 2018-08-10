@@ -2,7 +2,7 @@
 ---
 
 @import "jekyll-theme-midnight";
-.menu-bar ul
+.menu-bar 
 {
     background-color: #111;
     margin: 0;
@@ -12,17 +12,17 @@
     position: sticky;
     top: 0;
 }
-.menu-item li
+.menu-item
 {
     float: right;
 }
-.menu-item li a
+.menu-item a
 {
     display:block;
     border-right: 1px solid #bbb;
     padding: 14px 16px;
 }
-.menu-item li a:hover
+.menu-item a:hover
 {
     background-color: #111;
 }
