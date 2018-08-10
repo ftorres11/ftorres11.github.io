@@ -9,9 +9,9 @@
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <style>
-     ul {
+     .menu {
          position: sticky;
-         top: 0;
+         top: 0;   
      }
      li {
          float: right;
@@ -34,8 +34,8 @@
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
        <p>{{ site.description | default: site.github.project_tagline }}</p>
        <hr>
-      <div class="navigation-top site-navigation-fixed">
-        <div class="menu-social-links-menu-container">
+      <div>
+        <div>
         <nav>
          <ul id="top-menu" class="menu">
           <li id="menu-item-486" class="menu-item"><a href="#contact">Contact</a></li>
