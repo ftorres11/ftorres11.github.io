@@ -30,24 +30,23 @@
     </style>
   </head>
   <body>
-    <div class="wrapper">
     <section>
+    <div class="wrapper">
      <div id="title">
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
        <p>{{ site.description | default: site.github.project_tagline }}</p>
        <hr>
-      <div>
-        <div>
-        <nav>
-         <ul id="top-menu" class="menu">
-          <li id="menu-item-486" class="menu-item"><a href="#contact">Contact</a></li>
-          <li id="menu-item-485" class="menu-item"><a href="#hobbies">Hobbies</a></li>
-          <li id="menu-item-484" class="menu-item"><a href="#research">Research</a></li>
-          <li id="menu-item-483" class="menu-item"><a href="#home">Home</a></li>
-         </ul>
-        </div>
-        </nav>
-     </div>
+      </div>
+    </div> 
+    <div>
+     <nav>
+      <ul id="top-menu" class="menu">
+       <li id="menu-item-486" class="menu-item"><a href="#contact">Contact</a></li>
+       <li id="menu-item-485" class="menu-item"><a href="#hobbies">Hobbies</a></li>
+       <li id="menu-item-484" class="menu-item"><a href="#research">Research</a></li>
+       <li id="menu-item-483" class="menu-item"><a href="#home">Home</a></li>
+      </ul>
+     </nav>
     </div>
     {{content}}   
     </section>
