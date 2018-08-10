@@ -9,7 +9,7 @@
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <style>
-     ul.nav-menu{
+     .nav-menu{
          st-style-type: none;
          margin: 0;
          padding: 0;
@@ -26,7 +26,7 @@
          padding: 16px;
          text-align: center;
      }
-     .menu-item a:hover {
+     li a:hover {
        background-color: #111111;
      }
     </style>
@@ -40,7 +40,7 @@
        <hr>
       </div>
       <nav>
-       <ul id="top-menu">
+       <ul class="nav-menu">
         <li> <a id="menu-item-1" href="#contact" class="menu-item">Contact</a></li>
         <li> <a id="menu-item-2" href="#hobbies" class="menu-item"  >Hobbies</a></li>
         <li> <a id="menu-item-3" href="#research" class="menu-item" >Research</a></li>
