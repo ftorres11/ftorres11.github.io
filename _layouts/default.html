@@ -9,34 +9,29 @@
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <style>
-     nav {
-         position: sticky;
-         position: -webkit-sticky;
-         top: 0; /* required */
-     }
-     .menu-item {
-         text-transform: uppercase;
-         letter-spacing: 5px;
-         font: 18px "lato", sans-serif;
-         display: inline-block;
-         text-decoration: none;
-         padding: 18px;
-         float: right;
-         margin-left: 50px;
-         transition: 1.5s;
-     } 
-
-     .menu-item:hover {
-         background-color: #111111;
-     }  
-
-     ul {
+     ul.nav-menu{
+         st-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
          background-color: #333;
+         position: -webkit-sticky; /* Safari */
+         position: sticky;
+         top: 0; 
      }
-
-     li {
-         list-style-type: none;
+     li.menu-item {
+         float: right;
+         border-right: 1px solid #bbb;
      }
+     li.menu-item a {
+         display:block;
+         padding: 16px;
+         text-align: center;
+     }
+     li.menu-item a:hover {
+       background-color: #111111;
+     }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -47,11 +42,11 @@
        <hr>
       </div>
       <nav>
-       <ul>
-        <li> <a href="#contact" class="menu-item">Contact</a></li>
-        <li> <a href="#hobbies" class="menu-item">Hobbies</a></li>
-        <li> <a href="#research" class="menu-item">Research</a></li>
-        <li> <a href="#home" class="menu-item">Home</a></li>
+       <ul id="top-menu">
+        <li> <a id="menu-item-1" href="#contact" class="menu-item">Contact</a></li>
+        <li> <a id="menu-item-2" href="#hobbies" class="menu-item"  >Hobbies</a></li>
+        <li> <a id="menu-item-3" href="#research" class="menu-item" >Research</a></li>
+        <li> <a id="menu-item-4" href="#home" class="menu-item" >Home</a></li>
        </ul>
       </nav>
     </section>
