@@ -1,5 +1,7 @@
 ---
 ---
+
+@import "jekyll-theme-midnight";
 .menu-bar ul
 {
     background-color: #111;
@@ -24,5 +26,3 @@
 {
     background-color: #111;
 }
-@import "jekyll-theme-midnight";
-

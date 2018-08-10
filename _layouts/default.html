@@ -15,15 +15,13 @@
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
        <p>{{ site.description | default: site.github.project_tagline }}</p>
      </div>
-      <ul class="menu-bar">
-       <li> <a href="#contact">Contact</a></li>
-       <li> <a href="#hobbies">Hobbies</a></li>
-       <li> <a href="#research">Research</a></li>
-       <li> <a href="#home">Home</a></li>
-      </ul>
-     <div>
+     <ul class="menu-bar">
+      <li> <a href="#contact" class="menu-item">Contact</a></li>
+      <li> <a href="#hobbies" class="menu-item">Hobbies</a></li>
+      <li> <a href="#research"class="menu-item">Research</a></li>
+      <li> <a href="#home" class="menu-item">Home</a></li>
+     </ul>
       {{content}}    
-     </div>
     </section>
     </div> 
     {% if site.google_analytics %}
