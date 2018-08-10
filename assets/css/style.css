@@ -1,6 +1,6 @@
 ---
 ---
-ul
+.menu-bar ul
 {
     background-color: #111;
     margin: 0;
@@ -10,17 +10,17 @@ ul
     position: sticky;
     top: 0;
 }
-li
+.menu-item li
 {
     float: right;
 }
-li a
+.menu-item li a
 {
     display:block;
     border-right: 1px solid #bbb;
     padding: 14px 16px;
 }
-li a:hover
+.menu-item li a:hover
 {
     background-color: #111;
 }
