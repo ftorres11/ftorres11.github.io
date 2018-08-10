@@ -9,17 +9,17 @@
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <style>
-     li {
+     li.menu-item {
          position: sticky;
          float: right;
          border-right: 1px solid #bbb;
      }
-     li a {
+     li.menu-item a {
          display:block;
          padding: 16px;
          text-align: center;
      }
-     li a:hover {
+     li.menu-item a:hover {
        background-color: #111111;
      }
     </style>
@@ -32,6 +32,7 @@
        <p>{{ site.description | default: site.github.project_tagline }}</p>
        <hr>
       </div>
+      <div id="nav-menu">
       <nav>
        <ul id="top-menu" class="menu">
         <li id="menu-item-1" class="menu-item"><a href="#contact">Contact</a></li>
@@ -39,7 +40,8 @@
         <li id="menu-item-3" class="menu-item"><a href="#research">Research</a></li>
         <li id="menu-item-4" class="menu-item"><a href="#home">Home</a></li>
        </ul>
-      </nav>
+       </nav>
+      </div>
     </section>
     {{content}}   
     </div> 
