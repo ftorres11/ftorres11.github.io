@@ -10,16 +10,15 @@
     position: sticky;
     top: 0;
 }
-li.menu-item{
-    list-style-type: none;
+li{
     float: right;
 }
-li.menu-item a {
+li {
     display:block;
     border-right: 1px solid #bbb;
     padding: 14px 16px;
 } 
-li.menu-item a:hover {
+li a:hover {
     background-color: #111;
 }
 @import "jekyll-theme-midnight";
