@@ -9,8 +9,14 @@
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <style>
+     ul {
+         position: -webkit-sticky;
+         position: sticky;
+         top: 0;
+     }
      li {
          float: right;
+         border-right: 1px solid #bbb;
      }
      li a {
          display:block;
