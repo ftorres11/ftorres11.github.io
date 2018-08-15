@@ -28,13 +28,13 @@
 .menu-bar .menu-item {
     float: right;
 }
-.menu-bar .menu-item a{
+.menu-bar .menu-item {
     text-align: center;
     display:block;
     border-right: 1px solid #bbb;
     padding: 14px 16px;
 } 
-.menu-bar .menu-item a:hover {
+.menu-bar .menu-item:hover {
     background-color: #111;
 }
 .head-phase{
