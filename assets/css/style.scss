@@ -27,8 +27,10 @@
 }
 li.menu-item {
     float: right;
+    list-style-type:none;
 }
 li.menu-item a{
+    list-style-type:none;
     text-align: center;
     display:block;
     border-right: 1px solid #bbb;
