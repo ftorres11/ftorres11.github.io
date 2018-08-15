@@ -25,18 +25,16 @@
     position: sticky;
     top: 0;
 }
-li.menu-item {
+.menu-bar .menu-item {
     float: right;
-    list-style-type:none;
 }
-li.menu-item a{
-    list-style-type:none;
+.menu-bar .menu-item a{
     text-align: center;
     display:block;
     border-right: 1px solid #bbb;
     padding: 14px 16px;
 } 
-li.menu-item a:hover {
+.menu-bar .menu-item a:hover {
     background-color: #111;
 }
 .head-phase{
