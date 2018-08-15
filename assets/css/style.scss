@@ -8,7 +8,7 @@
     overflow: hidden;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 10;
+    top: 0;
 }
 li.menu-item {
     float: right;
@@ -20,11 +20,11 @@ li.menu-item {
 } 
 li.menu-item a:hover {
     background-color: #111;
-    padding: 14px 16px;
 }
 .head-phase{
     background-color: #333;
     text-align:center;
 }
 @import "jekyll-theme-midnight";
+
 
