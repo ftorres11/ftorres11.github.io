@@ -4,7 +4,8 @@
     list-style-type: none;
     background-color:#111;
     position: fixed;
-    bottom: 0;
+    top: 0;
+    float:left;
 }
 .lang-bar a{
     float: right;
