@@ -16,14 +16,14 @@
     text-decoration: none;
 }
 
-.clearfix::after {
+.text-head::after {
     content: "";
     clear: both;
     display: table;
 }
 .hed-txt-cont{
     background-color: rgb(37,37,37);
-    width: 30%;
+    width: 40%;
     float:left;
 }
 .column{
@@ -31,7 +31,7 @@
     padding:10px;
 }
 .content{
-    width:70%
+    width:60%
 }
 .contact-bar{
     list-style-type: none;
