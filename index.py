@@ -1,125 +1,74 @@
-
-# **Research**
-
-# **Hobbies**
-
-# **Contact**
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ftorres11/ftorres11.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ftorres11/ftorres11.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out. Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ftorres11/ftorres11.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ftorres11/ftorres11.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Home - Felipe Torres Figueroa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  </head>
+  <body>
+     <div class="lang-bar">
+      <a title="French" href="fr.html">
+       <img src="assets/images/frn-thumb.png" width="9" height="9">
+      </a>
+      <a title="English" href="default.html">
+       <img src="assets/images/eng-thumb.png" width="9" height="9">
+      </a>
+      <a title="Spanish" href="es.html">
+       <img src="assets/images/esp-thumb.png" width="9" height="9">
+      </a>
+     </div>
+    <div class="wrapper">
+    <section>
+     <div id="title">
+      <h1>Felipe Torres Figueroa</h1>
+       <p style="text-align: center">Biomedical Engineer with emphasys on Computer Vision| Long-distance runner| Guitar and Bass player</p>
+     </div>
+     <ul class="menu-bar">
+      <li class="menu-item"> <a href="#currvitae">CV</a></li>
+      <li class="menu-item"> <a href="#hobbies">Hobbies</a></li>
+      <li class="menu-item"> <a href="#about">About</a></li>
+      <li class="menu-item"> <a href="#research">Research</a></li>
+      <li class="menu-item"> <a href="#home">Home</a></li>
+     </ul>
+    <div id="content">
+     <header>
+      <h1 class="head.phase" id="home">Home</h1>
+     </header>
+     <div>
+      <p style="text-align: justify;"> I'm interested in Machine Learning, Computer Vision, either on new technologies or applications. I'm currently working on Biomedical Images (namely carpogram analysis) via image classification although I'm interested in image classification, image segmentation, NLP and unsupervised learning methods.<br>
+      Ever since I joined the Biomedical Computer Vision Group at <a href="https://uniandes.edu.co/">Universidad de los Andes</a> I developed an special interest towards research on image analysys specifically by Computer Vision. In addition to that I have grown to enjoy doing research and the academia, since 2016  I wanted to become a researcher in the area, so my main goal at the moment is achieving a PhD; as for now I am focused on finishing my Masters' Degree.</p>
+       <hr>
+       <div class="contact-bar">
+        <a href="https://github.com/ftorres11">ftorres11</a>
+        <a>
+         <img src="assets/images/git.png" width="20" height="20">
+        </a>
+        <a href="mailto:f.torres11@uniandes.edu.co">f.torres11@uniandes.edu.co</a>
+        <a>
+         <img src="assets/images/mail.png" width="20" height="20">
+        </a>
+       </div>
+      <h2 id="research">Research</h2>
+     </div> 
+     <div>
+      <header>
+       <h2> About</h2>
+        <p style="text-align: justify;">I'm a Colombian Biomedical Engineer doing my Masters' Degree at Universidad de Los Andes, Colombia. I'm 23 years old (soon to be 24), passionate about music, history and astronomy. During my undergraduate I grew passion towards programming and since then I've been working on Computer Vision under the supervission of my advisor <a href="https://biomedicalcomputervision.uniandes.edu.co/">Pablo Arbeláez</a>. I love jogging, spending time looking at the sky and good music; specially if I can reproduce it when playing my guitar or bass. Whenever I have the means to I also build scale models of planes of the WWII era.</p>
+      <header>
+     </div>
+    </div>
+    </section>
+    </div>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+  </body>
+</html>
