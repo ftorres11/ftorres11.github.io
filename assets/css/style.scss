@@ -16,9 +16,13 @@
     text-decoration: none;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .hed-txt-cont{
     background-color: rgb(37,37,37);
-    position: fixed;
     width: 50%;
     float:left;
 }
@@ -32,7 +36,6 @@
 .contact-bar{
     list-style-type: none;
     background-color: rgb(37,37,37);
-    position: fixed;
     float:right;
 }
 .contact-bar a{
