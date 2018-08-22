@@ -15,6 +15,20 @@
     padding: 10px 10px;
     text-decoration: none;
 }
+.contact-bar{
+    list-style-type: none;
+    background-color: rgb(37,37,37);
+    position: fixed;
+    float:right;
+}
+.contact-bar a{
+    float:right;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
 .menu-bar{
     list-style-type: none;
     background-color: #333;
