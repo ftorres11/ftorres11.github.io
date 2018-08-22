@@ -17,12 +17,18 @@
 }
 
 .hed-txt-cont{
-    list-style-type: none;
     background-color: rgb(37,37,37);
     position: fixed;
+    width: 50%;
     float:left;
 }
-
+.column{
+    float:left;
+    padding:10px;
+}
+.content{
+    width:50%
+}
 .contact-bar{
     list-style-type: none;
     background-color: rgb(37,37,37);
