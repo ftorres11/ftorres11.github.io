@@ -22,9 +22,8 @@
     display: table;
 }
 .perf{
-    height:auto;
-    width:40%;
     border-radius: 30%;
+    float:right;
 }
 .hed-txt-cont{
     background-color: rgb(37,37,37);
@@ -35,6 +34,7 @@
     float:right;
     padding:10px;
 }
+
 .content{
     width:60%
 }
