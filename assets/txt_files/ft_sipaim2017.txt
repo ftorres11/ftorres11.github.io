@@ -1,4 +1,4 @@
-@article{torres figueroa_salinas miranda_bravo sarmiento_triana_arbeláez escalante_2017,
+@article{torres_bravo_salinas_triana_escalante_2017,
 title={Bone age detection via carpogram analysis using convolutional neural networks},
 DOI={10.1117/12.2285949},
 journal={13th International Conference on Medical Information Processing and Analysis},
