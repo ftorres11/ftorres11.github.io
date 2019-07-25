@@ -24,7 +24,7 @@
      <section>
      <div id="title">
       <h1>Felipe Torres Figueroa</h1>
-       <p style="text-align: center">Biomedical Engineer with emphasys on Computer Vision| Long-distance runner| Guitar and Bass player</p>
+       <p style="text-align: center">Ingénieur biomédical</p>
      </div>
      <ul class="menu-bar">
       <li class="menu-item"> <a href="#currvitae">Hoja de Vida</a></li>
@@ -39,7 +39,8 @@
        </div>
        <div class="column content">
         <p style="text-align: justify;">
-        <img src="assets/images/perf.png" class="perf" width="200" height="250" style="margin-left:15px;">
+        <img src="assets/images/prof_2_0.png" class="perf" width="200" height="250" style="margin-left:15px;">
+         Je suis interesé en l'apprentissage automatique et vision par ordinateur ...
          Estoy interesado en el Aprendizaje de Máquina y Visión por Computador (CV); sea en nuevas tecnologías o aplicaciones. Estoy trabajando en este momento en Imágenes Biomédicas (siendo específico en análisis de carpograma) mediante clasificación de imágenes, aunque estoy interesado en segmentación de imagenes, procesamiento de lenguaje natural y métodos de aprendizaje no supervisados; en conjunto con las aplicaciones biomédicas que puedan ser realizadas con CV. <br>
          Desde que me uní al <a href="https://biomedicalcomputervision.uniandes.edu.co/" target="_blank">Grupo de Visión por computador</a> en la <a href="https://uniandes.edu.co" target="_blank">Universidad de los Andes</a> bajo el tutelaje de Pablo Arbeláez; desarrollé un interés especial hacia la investigación y el análisis de imagenes, especificamente con Visión por Computador. En adición a eso, he aprendido a disfrutar la investigación y la academia; desde 2016 deseo convertirme en un investigador en el área, es por ello que mi objetivo principal en este instante es lograr un Doctorado; de momento estoy enfocado en terminar mi Maestría.</p>
        </div>
@@ -59,11 +60,29 @@
        <div class="hed-txt-cont">
         <h2 class="head.phase" id="research">Investigación</h2>
        </div>
+
+       <div class="column content">
+        <div class="contact-bar">
+         <img src="assets/images/bonet_overview.png" width="254" height="127">
+         <p style="text-align: justify;">
+          <strong>Hand Pose Estimation for Pediatric Bone Age Assessment</strong>
+          <br>
+          M.C. Escobar, C.I. González, F. Torres, L.A. Daza,G. Triana y P. Arbeláez. 
+          <br>
+          MICCAI-2019. Para ser publicado, ya aceptado.
+          <br>
+          <a href="">pdf</a>
+          <a href="">BibTex</a>
+          <a href="">Página del proyecto</a>
+         </p>
+        </div>
+       </div>
+
        <div class="column content">
         <div class="contact-bar">
          <img src="assets/images/crpg.png" width="300" height="150">
          <p style="text-align: justify;">
-          <strong>Estimación de Edad Ósea Binaria</strong>
+          <strong>Bone Age Detection via Carpogram Analysis using Convolutional Neural Networks</strong>
           <br>
           F. Torres, M.A. Bravo, E Salinas, G Triana y P. Arbeláez. 
           <br>
@@ -75,6 +94,7 @@
          </p>
         </div>
        </div>
+
       </div>
       <hr>
       <div class="text-head">
@@ -82,7 +102,7 @@
         <h2 class="head.phase" id="about">Acerca de</h2>
        </div>
        <div class="column content">
-        <p style="text-align: justify;">Soy un Ingeniero Biomédico Colombiano cursando mi Maestría en la Universidad de los Andes, Colombia. Tengo 23 años (prontamente 24), me apasiona la música, la historia y la astronomía. Durante mi pregrado me apasioné con la programación y desde entonces he estado trabajando en Visión por Computador bajo la supervisión de mi asesir Pablo Arbeláez. Me encanta trotar, pasar tiempo mirando a las estrellas y escuchando música; especialmente si la puedo reproducir tocando en mi guitarra o bajo. Cuando tengo los medios para hacerlo, tambien construyo modelos a escala de aviones de la Segunda Guerra Mundial.</p>
+        <p style="text-align: justify;">Soy un Ingeniero Biomédico Colombiano cursando mi Maestría en la Universidad de los Andes, Colombia. Tengo 24 años, me apasiona la música, la historia y la astronomía. Durante mi pregrado me apasioné con la programación y desde entonces he estado trabajando en Visión por Computador bajo la supervisión de mi asesir Pablo Arbeláez. Me encanta trotar, pasar tiempo mirando a las estrellas y escuchando música; especialmente si la puedo reproducir tocando en mi guitarra o bajo. Cuando tengo los medios para hacerlo, tambien construyo modelos a escala de aviones de la Segunda Guerra Mundial.</p>
        </div>
       </div>         
      </div>
