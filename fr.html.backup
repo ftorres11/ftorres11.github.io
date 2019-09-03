@@ -10,13 +10,13 @@
   </head>
   <body>
      <div class="lang-bar">
-      <a title="French" href="fr.html">
+      <a title="Français" href="fr.html">
        <img src="assets/images/frn-thumb.png" width="9" height="9">
       </a>
-      <a title="English" href="index.html">
+      <a title="Anglais" href="index.html">
        <img src="assets/images/eng-thumb.png" width="9" height="9">
       </a>
-      <a title="Spanish" href="es.html">
+      <a title="Espagnol" href="es.html">
        <img src="assets/images/esp-thumb.png" width="9" height="9">
       </a>
      </div>
@@ -27,10 +27,10 @@
        <p style="text-align: center">Ingénieur biomédical</p>
      </div>
      <ul class="menu-bar">
-      <li class="menu-item"> <a href="#currvitae">Hoja de Vida</a></li>
-      <li class="menu-item"> <a href="#about">Acerca de</a></li>
-      <li class="menu-item"> <a href="#research">Investigación</a></li>
-      <li class="menu-item"> <a href="#home">Inicio</a></li>
+      <li class="menu-item"> <a href="#currvitae">CV</a></li>
+      <li class="menu-item"> <a href="#about">asd</a></li>
+      <li class="menu-item"> <a href="#research">Recherche</a></li>
+      <li class="menu-item"> <a href="#home">Début</a></li>
      </ul>
      <div id="content">
       <div class="text-head">
@@ -102,7 +102,8 @@
         <h2 class="head.phase" id="about">Acerca de</h2>
        </div>
        <div class="column content">
-        <p style="text-align: justify;">Soy un Ingeniero Biomédico Colombiano cursando mi Maestría en la Universidad de los Andes, Colombia. Tengo 24 años, me apasiona la música, la historia y la astronomía. Durante mi pregrado me apasioné con la programación y desde entonces he estado trabajando en Visión por Computador bajo la supervisión de mi asesir Pablo Arbeláez. Me encanta trotar, pasar tiempo mirando a las estrellas y escuchando música; especialmente si la puedo reproducir tocando en mi guitarra o bajo. Cuando tengo los medios para hacerlo, tambien construyo modelos a escala de aviones de la Segunda Guerra Mundial.</p>
+        <p style="text-align: justify;"> Je suis un Colombien Inge Biomedical et jesuis entrain de finir mon MsC dans l'Universidad de los Andes. Colombia. J'ai 24 ans, J'adore la musique, l'histoire et l'astronomie. Quand J'ai été entrain d'etudiar mon BsC, mon amour pour la programmation etait commencé, et depuis la. J'
+        Soy un Ingeniero Biomédico Colombiano cursando mi Maestría en la Universidad de los Andes, Colombia. Tengo 24 años, me apasiona la música, la historia y la astronomía. Durante mi pregrado me apasioné con la programación y desde entonces he estado trabajando en Visión por Computador bajo la supervisión de mi asesir Pablo Arbeláez. Me encanta trotar, pasar tiempo mirando a las estrellas y escuchando música; especialmente si la puedo reproducir tocando en mi guitarra o bajo. Cuando tengo los medios para hacerlo, tambien construyo modelos a escala de aviones de la Segunda Guerra Mundial.</p>
        </div>
       </div>         
      </div>
