@@ -1,0 +1,7 @@
+@inproceedings{BoNet2019hand,
+  title={Hand Pose Estimation for Pediatric Bone Age Assessment},
+  author={Escobar, Mar{\'\i}a and Gonz{\'a}lez, Cristina and Torres, Felipe and Daza, Laura and Triana, Gustavo and Arbel{\'a}ez, Pablo},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  year={2019},
+  organization={Springer}
+}
