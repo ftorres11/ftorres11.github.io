@@ -1,7 +1,14 @@
-@article{torres_bravo_salinas_triana_escalante_2017,
-title={Bone age detection via carpogram analysis using convolutional neural networks},
-DOI={10.1117/12.2285949},
-journal={13th International Conference on Medical Information Processing and Analysis},
-author={Torres Figueroa, Felipe and Salinas Miranda, Emmanuel and Bravo Sarmiento, María Alejadra and Triana, Gustavo and Arbeláez Escalante, Pablo Andrés},
-year={2017}
+@inproceedings{GPNet_2019,
+author = {Felipe Torres and Cristina González and María Camila Escobar and Laura Daza and Gustavo Triana and Pablo Arbeláez},
+title = {{An empirical study on global bone age assessment}},
+volume = {11330},
+booktitle = {15th International Symposium on Medical Information Processing and Analysis},
+editor = {Eduardo Romero and Natasha Lepore and Jorge Brieva},
+organization = {International Society for Optics and Photonics},
+publisher = {SPIE},
+pages = {98 -- 105},
+keywords = {Bone Age Assessment, Computer Aided Diagnosis, Convolutional Neural Networks, Machine Learning, Pediatrics},
+year = {2020},
+doi = {10.1117/12.2542431},
+URL = {https://doi.org/10.1117/12.2542431}
 }
