@@ -1,0 +1,8 @@
+@InProceedings{Ospina_2020_CVPR_Workshops,
+author = {Ospina, Andres and Torres, Felipe},
+title = {Countor: Count Without Bells and Whistles},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+month = {June},
+year = {2020}
+}
+
